@@ -3,11 +3,13 @@ import 'boxicons/css/boxicons.min.css';
 
 export default function PriceTag({ isMonthly }: { isMonthly: boolean }) {
   return (
-    <div className="w-80 h-[33rem] border border-darkgrey bg-white relative mx-[20px] my-[20px] p-5">
-      <div className="pl-5 m-7">
+    <div className="w-full max-w-xs h-[33rem] border border-darkgrey bg-white p-5 mx-auto my-5">
+      <div className="m-7">
         <h3 className="font-bold text-darkgrey text-[1.5rem]">Starter</h3>
         <p className="text-darkgrey text-[0.8rem]">Ideal for freelancers and contractors just starting out</p>
-        <h1 className="font-bold text-darkgrey text-[2rem] inline-block mt-4">{isMonthly ? '$240' : '$24'}</h1>
+        <h1 className="font-bold text-darkgrey text-[2rem] inline-block mt-4">
+          {isMonthly ? '$240' : '$24'}
+        </h1>
         <h5 className="inline-block align-middle">/{isMonthly ? 'Yearly' : 'Monthly'}</h5>
       </div>
       <div className="flex flex-col gap-3 mx-[10px]">
