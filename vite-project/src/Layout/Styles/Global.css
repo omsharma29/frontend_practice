@@ -1,0 +1,17 @@
+/* styles/globals.css */
+.blue-shape {
+    @apply absolute block z-[-1] bg-[#2b8ecb89] rounded-[6.9vw] rotate-[-30deg];
+    width: 56vw;
+    height: 56vw;
+    left: 0;
+    top: 0;
+    right: auto;
+    bottom: auto;
+  }
+  
+  .blue-shape._12 {
+    @apply top-[-88%] right-[-23%];
+    width: 90%;
+    height: 120%;
+  }
+  

@@ -1,7 +1,20 @@
+import Footer from "./Layout/Footer";
+import Header from "./Layout/Header";
+import { Lables } from "./Layout/Lables";
+import Pricing from "./Layout/Pricing";
+import QnA from "./Layout/QnA";
+
 export default function App() {
   return (
-    <h1 className="text-9xl font-bold underline to-blue-950">
-      Hello world!
-    </h1>
+    <div>
+   <Header/>
+   
+   <Pricing/>
+    <Lables/>
+  
+   <QnA/>
+<Footer/>
+    </div>
+
   )
 }

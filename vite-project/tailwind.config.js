@@ -6,7 +6,13 @@ export default {
   ],
 
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        darkgrey : '#4c4d5f',
+        yellowish: '#f8db62',
+        green: '#00b289'
+      },
+    },
   },
   plugins: [],
 }
